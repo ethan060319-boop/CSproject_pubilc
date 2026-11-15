@@ -11,6 +11,7 @@
 *  `export.geojson`/建築物原始資料
 下列為https://overpass-turbo.eu/
 中抓取資料的程式碼
+```
 [out:json][timeout:25];
 
 // 1. 鎖定「國立中央大學」的校園範圍
@@ -27,7 +28,7 @@ area["name"="國立中央大學"]->.ncu;
 out body;
 >;
 out skel qt;
-
+```
 
 ## 使用方式
 
