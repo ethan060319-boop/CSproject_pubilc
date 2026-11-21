@@ -1,0 +1,4 @@
+*.exe
+building_id_list.txt
+__pycache__/
+*.py[cod]
