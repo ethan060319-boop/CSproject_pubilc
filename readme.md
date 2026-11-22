@@ -51,14 +51,10 @@
 
 建築輪廓取自 OpenStreetMap，但 111 棟建築中只有 4 棟有樓層資料，因此另外整理了校方公開的樓層數。高度依下列順序決定：
 
-1. `building_heights.csv` 中的資料（`height_m` 優先，其次 `levels` × 3.5 m）。其中 48 棟的樓層數取自[中大防災中心 109 年〈校園災害潛勢評估報告〉](https://military.ncu.edu.tw/CSRC/download/%E9%99%84%E4%BB%B6%E4%B8%80%E6%A0%A1%E5%9C%92%E7%81%BD%E5%AE%B3%E6%BD%9B%E5%8B%A2%E8%A9%95%E4%BC%B0%E5%A0%B1%E5%91%8A(109%E5%B9%B4).pdf)附件一的耐震評估清冊（`data_source` 欄為 `ncu_report`，`note` 欄記有清冊項次）；`note` 標「推測對應」的幾棟是名稱不完全相同、由我們判斷的對應，請實地確認。組員實地補填時 `data_source` 留空即可。
+1. `building_heights.csv` 中的資料（`height_m` 優先，其次 `levels` × 3.5 m）。其中 48 棟的樓層數取自[中大防災中心 109 年〈校園災害潛勢評估報告〉](https://military.ncu.edu.tw/CSRC/download/%E9%99%84%E4%BB%B6%E4%B8%80%E6%A0%A1%E5%9C%92%E7%81%BD%E5%AE%B3%E6%BD%9B%E5%8B%A2%E8%A9%95%E4%BC%B0%E5%A0%B1%E5%91%8A(109%E5%B9%B4).pdf)附件一的耐震評估清冊（`data_source` 欄為 `ncu_report`，`note` 欄記有清冊項次）；`note` 標「推測對應」的幾棟是名稱不完全相同、由我們判斷的對應。
 2. OSM 的 `height`。
 3. OSM 的 `building:levels` × 3.5 m。
 4. 都沒有時依面積估計：面積小於 150 m² 或車庫等附屬建物 3.5 m；未命名且小於 400 m² 或住宅 7 m；其餘暫用 12 m。
-
-OSM 上約 40 棟建築沒有名字，程式會用「最近的有名建築＋旁建築（流水號）」自動命名，例如「男七舍旁建築」。知道正式名稱的話，填在 `building_heights.csv` 的 `name` 欄即可，地圖地名與目的地搜尋也會跟著出現。`buildings.json` 由 `python read_geojson.py` 產生，名稱與高度規則和網頁相同。
-
-`building_heights.csv` 依占地面積由大到小排列，越上面的建築對陰影影響越大，建議優先實地數樓層。用 Excel 打開，填 `levels`（樓層數）或 `height_m`（公尺）後存檔，再執行 `python build.py` 重新產生 `index.html`。`current_height_m`、`current_source` 兩欄只是參考，程式不會讀。
 
 ## 未來改進方向
 
