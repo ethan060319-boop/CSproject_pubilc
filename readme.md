@@ -51,7 +51,7 @@
 
 建築輪廓取自 OpenStreetMap，但 111 棟建築中只有 4 棟有樓層資料，因此另外整理了校方公開的樓層數。高度依下列順序決定：
 
-1. `building_heights.csv` 中的資料（`height_m` 優先，其次 `levels` × 3.5 m）。其中 48 棟的樓層數取自[中大防災中心112年〈校園災害潛勢評估報告〉](https://military.ncu.edu.tw/download/112_0008_%E6%A0%A1%E5%9C%92%E7%81%BD%E5%AE%B3%E9%98%B2%E6%95%91%E8%A8%88%E7%95%AB%E6%9B%B8-%E6%9C%AC%E6%96%87-112.3.28.pdf)附件一的耐震評估清冊，`note` 標「推測對應」的幾棟是名稱不完全相同、由我們判斷的對應。
+1. `building_heights.csv` 中的資料（`height_m` 優先，其次 `levels` × 3.5 m）。其中62棟的樓層數取自[中大防災中心112年〈校園災害潛勢評估報告〉](https://military.ncu.edu.tw/download/112_0008_%E6%A0%A1%E5%9C%92%E7%81%BD%E5%AE%B3%E9%98%B2%E6%95%91%E8%A8%88%E7%95%AB%E6%9B%B8-%E6%9C%AC%E6%96%87-112.3.28.pdf)附件一的耐震評估清冊，`note` 標「推測對應」的幾棟是名稱不完全相同、由我們判斷的對應。
 2. OSM 的 `height`。
 3. OSM 的 `building:levels` × 3.5 m。
 4. 都沒有時依面積估計：面積小於 150 m² 或車庫等附屬建物 3.5 m；未命名且小於 400 m² 或住宅 7 m；其餘暫用 12 m。
