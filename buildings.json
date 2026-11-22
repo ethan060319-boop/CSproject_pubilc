@@ -9,9 +9,10 @@
       "id": 0,
       "osm_id": "relation/6576312",
       "name": "工程三館(機械館)",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 14.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 33,
       "vertices_xy": [
         {
@@ -286,9 +287,10 @@
       "id": 1,
       "osm_id": "relation/8244873",
       "name": "曦望居",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 17.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 14,
       "vertices_xy": [
         {
@@ -411,9 +413,10 @@
       "id": 2,
       "osm_id": "way/202690673",
       "name": "男三舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 8,
       "vertices_xy": [
         {
@@ -488,6 +491,7 @@
       "id": 3,
       "osm_id": "way/202690841",
       "name": "國鼎光電大樓",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -533,9 +537,10 @@
       "id": 4,
       "osm_id": "way/202691135",
       "name": "科學四館",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 35.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -594,6 +599,7 @@
       "id": 5,
       "osm_id": "way/202691136",
       "name": "科學二館(理學院大樓)",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -639,9 +645,10 @@
       "id": 6,
       "osm_id": "way/202691227",
       "name": "文學二館",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 14.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 10,
       "vertices_xy": [
         {
@@ -732,9 +739,10 @@
       "id": 7,
       "osm_id": "way/202691228",
       "name": "文學一館",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 10,
       "vertices_xy": [
         {
@@ -825,6 +833,7 @@
       "id": 8,
       "osm_id": "way/202805154",
       "name": "羽球館",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -870,6 +879,7 @@
       "id": 9,
       "osm_id": "way/202805379",
       "name": "iHouse享想空間",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -915,9 +925,10 @@
       "id": 10,
       "osm_id": "way/202805783",
       "name": "男九舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 17.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 21,
       "vertices_xy": [
         {
@@ -1096,9 +1107,10 @@
       "id": 11,
       "osm_id": "way/202805788",
       "name": "女十四舍",
+      "osm_named": 1,
       "height": 42.0,
       "is_estimated": 1,
-      "height_source": "osm_levels",
+      "height_source": "ncu_report",
       "vertex_count": 22,
       "vertices_xy": [
         {
@@ -1285,6 +1297,7 @@
       "id": 12,
       "osm_id": "way/202805967",
       "name": "中大會館",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -1338,9 +1351,10 @@
       "id": 13,
       "osm_id": "way/202805968",
       "name": "鴻經館",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 24.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 18,
       "vertices_xy": [
         {
@@ -1495,9 +1509,10 @@
       "id": 14,
       "osm_id": "way/202805970",
       "name": "管理學院二館",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 31.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 12,
       "vertices_xy": [
         {
@@ -1604,9 +1619,10 @@
       "id": 15,
       "osm_id": "way/202806028",
       "name": "綜教館(語言中心)",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 14.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -1665,9 +1681,10 @@
       "id": 16,
       "osm_id": "way/202806291",
       "name": "體育器材室",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -1710,9 +1727,10 @@
       "id": 17,
       "osm_id": "way/202806571",
       "name": "第二行政中心",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -1755,9 +1773,10 @@
       "id": 18,
       "osm_id": "way/202806573",
       "name": "總圖書館",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 28.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -1800,9 +1819,10 @@
       "id": 19,
       "osm_id": "way/217833430",
       "name": "太空及遙測研究中心",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -1845,9 +1865,10 @@
       "id": 20,
       "osm_id": "way/217833431",
       "name": "志希館",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 42.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 12,
       "vertices_xy": [
         {
@@ -1954,9 +1975,10 @@
       "id": 21,
       "osm_id": "way/264560214",
       "name": "男13舍",
-      "height": 28.0,
+      "osm_named": 1,
+      "height": 17.5,
       "is_estimated": 1,
-      "height_source": "osm_levels",
+      "height_source": "ncu_report",
       "vertex_count": 24,
       "vertices_xy": [
         {
@@ -2159,9 +2181,10 @@
       "id": 22,
       "osm_id": "way/268560615",
       "name": "地球科學院",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 15,
       "vertices_xy": [
         {
@@ -2292,9 +2315,10 @@
       "id": 23,
       "osm_id": "way/268560616",
       "name": "地球科學院",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 9,
       "vertices_xy": [
         {
@@ -2377,9 +2401,10 @@
       "id": 24,
       "osm_id": "way/268561417",
       "name": "男十一舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 17.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 7,
       "vertices_xy": [
         {
@@ -2446,6 +2471,7 @@
       "id": 25,
       "osm_id": "way/268561418",
       "name": "志道樓",
+      "osm_named": 1,
       "height": 7.0,
       "is_estimated": 1,
       "height_source": "osm_levels",
@@ -2595,6 +2621,7 @@
       "id": 26,
       "osm_id": "way/268561421",
       "name": "客家學院",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -2664,6 +2691,7 @@
       "id": 27,
       "osm_id": "way/268561422",
       "name": "環工所",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -2773,9 +2801,10 @@
       "id": 28,
       "osm_id": "way/268561932",
       "name": "土木品保中心",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 14.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -2834,9 +2863,10 @@
       "id": 29,
       "osm_id": "way/268561934",
       "name": "大型力學實驗室",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 8,
       "vertices_xy": [
         {
@@ -2911,9 +2941,10 @@
       "id": 30,
       "osm_id": "way/268561936",
       "name": "松苑餐廳",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -2972,6 +3003,7 @@
       "id": 31,
       "osm_id": "way/268561940",
       "name": "工程五館",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -3297,6 +3329,7 @@
       "id": 32,
       "osm_id": "way/268561943",
       "name": "前瞻科技研究中心",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -3406,9 +3439,10 @@
       "id": 33,
       "osm_id": "way/268824430",
       "name": "男七舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 14.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 10,
       "vertices_xy": [
         {
@@ -3498,10 +3532,11 @@
     {
       "id": 34,
       "osm_id": "way/268824431",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "男七舍旁建築",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -3544,9 +3579,10 @@
       "id": 35,
       "osm_id": "way/268824432",
       "name": "男六舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 15,
       "vertices_xy": [
         {
@@ -3677,9 +3713,10 @@
       "id": 36,
       "osm_id": "way/268824433",
       "name": "遊藝館",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 18,
       "vertices_xy": [
         {
@@ -3834,9 +3871,10 @@
       "id": 37,
       "osm_id": "way/268824890",
       "name": "大講堂",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 28,
       "vertices_xy": [
         {
@@ -4071,6 +4109,7 @@
       "id": 38,
       "osm_id": "way/268824891",
       "name": "高壓變電站",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -4116,9 +4155,10 @@
       "id": 39,
       "osm_id": "way/268824892",
       "name": "男十二舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 17.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -4177,6 +4217,7 @@
       "id": 40,
       "osm_id": "way/268840856",
       "name": "國際學生宿舍",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -4302,9 +4343,10 @@
       "id": 41,
       "osm_id": "way/268840857",
       "name": "男五舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 24,
       "vertices_xy": [
         {
@@ -4507,9 +4549,10 @@
       "id": 42,
       "osm_id": "way/268840858",
       "name": "據德樓",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 14,
       "vertices_xy": [
         {
@@ -4632,9 +4675,10 @@
       "id": 43,
       "osm_id": "way/268841451",
       "name": "工程一館",
+      "osm_named": 1,
       "height": 10.5,
       "is_estimated": 1,
-      "height_source": "osm_levels",
+      "height_source": "ncu_report",
       "vertex_count": 20,
       "vertices_xy": [
         {
@@ -4804,7 +4848,8 @@
     {
       "id": 44,
       "osm_id": "way/268841452",
-      "name": "Unknown",
+      "name": "工程一館旁建築",
+      "osm_named": 0,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -4850,6 +4895,7 @@
       "id": 45,
       "osm_id": "way/268841453",
       "name": "通訊系",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -4943,6 +4989,7 @@
       "id": 46,
       "osm_id": "way/268841454",
       "name": "電機系",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -5052,6 +5099,7 @@
       "id": 47,
       "osm_id": "way/268841455",
       "name": "資策會",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -5113,9 +5161,10 @@
       "id": 48,
       "osm_id": "way/268841456",
       "name": "依仁堂",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -5158,9 +5207,10 @@
       "id": 49,
       "osm_id": "way/268843079",
       "name": "女二舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 12,
       "vertices_xy": [
         {
@@ -5267,9 +5317,10 @@
       "id": 50,
       "osm_id": "way/268843080",
       "name": "女四舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 17.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 16,
       "vertices_xy": [
         {
@@ -5408,9 +5459,10 @@
       "id": 51,
       "osm_id": "way/268843081",
       "name": "女三舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 17,
       "vertices_xy": [
         {
@@ -5557,9 +5609,10 @@
       "id": 52,
       "osm_id": "way/268843082",
       "name": "女一舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -5618,6 +5671,7 @@
       "id": 53,
       "osm_id": "way/268845976",
       "name": "人文社會科學大樓",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -5742,10 +5796,11 @@
     {
       "id": 54,
       "osm_id": "way/268845987",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "文學一館旁建築",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -5788,6 +5843,7 @@
       "id": 55,
       "osm_id": "way/268846328",
       "name": "科五館(S5)",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -5929,9 +5985,10 @@
       "id": 56,
       "osm_id": "way/268846329",
       "name": "理學院教學館(普化實驗大樓)",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 12,
       "vertices_xy": [
         {
@@ -6038,9 +6095,10 @@
       "id": 57,
       "osm_id": "way/268846332",
       "name": "科三館",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 14.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 16,
       "vertices_xy": [
         {
@@ -6178,10 +6236,11 @@
     {
       "id": 58,
       "osm_id": "way/268846333",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "科三館旁建築",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -6224,9 +6283,10 @@
       "id": 59,
       "osm_id": "way/268851049",
       "name": "國鼎圖書資料館",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 24.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 23,
       "vertices_xy": [
         {
@@ -6421,9 +6481,10 @@
       "id": 60,
       "osm_id": "way/268851920",
       "name": "實習一廠",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 10,
       "vertices_xy": [
         {
@@ -6513,7 +6574,8 @@
     {
       "id": 61,
       "osm_id": "way/268851921",
-      "name": "Unknown",
+      "name": "松苑餐廳旁建築",
+      "osm_named": 0,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -6558,7 +6620,8 @@
     {
       "id": 62,
       "osm_id": "way/268851922",
-      "name": "Unknown",
+      "name": "單四舍旁建築 1",
+      "osm_named": 0,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -6603,7 +6666,8 @@
     {
       "id": 63,
       "osm_id": "way/268851923",
-      "name": "Unknown",
+      "name": "單四舍旁建築 2",
+      "osm_named": 0,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -6648,10 +6712,11 @@
     {
       "id": 64,
       "osm_id": "way/268852724",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 5",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -6693,10 +6758,11 @@
     {
       "id": 65,
       "osm_id": "way/268852725",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 6",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -6738,10 +6804,11 @@
     {
       "id": 66,
       "osm_id": "way/268852726",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "實習一廠旁建築 1",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -6783,10 +6850,11 @@
     {
       "id": 67,
       "osm_id": "way/268852727",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 4",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -6828,10 +6896,11 @@
     {
       "id": 68,
       "osm_id": "way/268852728",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 8",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -6873,10 +6942,11 @@
     {
       "id": 69,
       "osm_id": "way/268852729",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 11",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -6918,10 +6988,11 @@
     {
       "id": 70,
       "osm_id": "way/268852730",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 12",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -6963,10 +7034,11 @@
     {
       "id": 71,
       "osm_id": "way/268852731",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 10",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -7008,10 +7080,11 @@
     {
       "id": 72,
       "osm_id": "way/268852732",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 9",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -7053,10 +7126,11 @@
     {
       "id": 73,
       "osm_id": "way/269122190",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 14",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 8,
       "vertices_xy": [
         {
@@ -7130,10 +7204,11 @@
     {
       "id": 74,
       "osm_id": "way/269122194",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 19",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 9,
       "vertices_xy": [
         {
@@ -7215,10 +7290,11 @@
     {
       "id": 75,
       "osm_id": "way/269122195",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 18",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 7,
       "vertices_xy": [
         {
@@ -7284,10 +7360,11 @@
     {
       "id": 76,
       "osm_id": "way/269122196",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 24",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 8,
       "vertices_xy": [
         {
@@ -7361,10 +7438,11 @@
     {
       "id": 77,
       "osm_id": "way/269122197",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 20",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 8,
       "vertices_xy": [
         {
@@ -7438,10 +7516,11 @@
     {
       "id": 78,
       "osm_id": "way/269122198",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 15",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -7499,10 +7578,11 @@
     {
       "id": 79,
       "osm_id": "way/269122199",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 16",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -7560,10 +7640,11 @@
     {
       "id": 80,
       "osm_id": "way/269122200",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 17",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -7621,10 +7702,11 @@
     {
       "id": 81,
       "osm_id": "way/269122201",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 23",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -7682,10 +7764,11 @@
     {
       "id": 82,
       "osm_id": "way/269122202",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 3",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -7727,10 +7810,11 @@
     {
       "id": 83,
       "osm_id": "way/269122203",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 21",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -7788,10 +7872,11 @@
     {
       "id": 84,
       "osm_id": "way/269122204",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 25",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -7849,10 +7934,11 @@
     {
       "id": 85,
       "osm_id": "way/269122205",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 22",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -7911,9 +7997,10 @@
       "id": 86,
       "osm_id": "way/269122545",
       "name": "單一舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -7956,9 +8043,10 @@
       "id": 87,
       "osm_id": "way/269122546",
       "name": "單二舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 28,
       "vertices_xy": [
         {
@@ -8193,9 +8281,10 @@
       "id": 88,
       "osm_id": "way/269122547",
       "name": "松果館(育成中心)",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 26,
       "vertices_xy": [
         {
@@ -8414,9 +8503,10 @@
       "id": 89,
       "osm_id": "way/269122548",
       "name": "單四舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 8,
       "vertices_xy": [
         {
@@ -8490,10 +8580,11 @@
     {
       "id": 90,
       "osm_id": "way/269122549",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單二舍旁建築",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 12,
       "vertices_xy": [
         {
@@ -8599,10 +8690,11 @@
     {
       "id": 91,
       "osm_id": "way/269122550",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 13",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -8660,10 +8752,11 @@
     {
       "id": 92,
       "osm_id": "way/269122551",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "單四舍旁建築 7",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -8705,10 +8798,11 @@
     {
       "id": 93,
       "osm_id": "way/269122609",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "工程三館旁建築",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -8766,10 +8860,11 @@
     {
       "id": 94,
       "osm_id": "way/269122610",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "實習一廠旁建築 3",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -8827,10 +8922,11 @@
     {
       "id": 95,
       "osm_id": "way/269122611",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "實習一廠旁建築 2",
+      "osm_named": 0,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -8889,9 +8985,10 @@
       "id": 96,
       "osm_id": "way/270806669",
       "name": "行政大樓",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 10.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 20,
       "vertices_xy": [
         {
@@ -9062,9 +9159,10 @@
       "id": 97,
       "osm_id": "way/270806670",
       "name": "車庫",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -9107,6 +9205,7 @@
       "id": 98,
       "osm_id": "way/270806671",
       "name": "資源回收及垃圾處理場",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -9168,9 +9267,10 @@
       "id": 99,
       "osm_id": "way/270954440",
       "name": "大氣環境實驗室",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -9213,9 +9313,10 @@
       "id": 100,
       "osm_id": "way/270954441",
       "name": "校長宿舍",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -9258,9 +9359,10 @@
       "id": 101,
       "osm_id": "way/566172504",
       "name": "打啵",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 3.5,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -9302,10 +9404,11 @@
     {
       "id": 102,
       "osm_id": "way/678329041",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "女四舍旁建築",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 6,
       "vertices_xy": [
         {
@@ -9363,10 +9466,11 @@
     {
       "id": 103,
       "osm_id": "way/678329042",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "中大幼稚園旁建築 2",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 8,
       "vertices_xy": [
         {
@@ -9441,6 +9545,7 @@
       "id": 104,
       "osm_id": "way/678329043",
       "name": "中大幼稚園",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
@@ -9485,10 +9590,11 @@
     {
       "id": 105,
       "osm_id": "way/678329044",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "中大幼稚園旁建築 3",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 11,
       "vertices_xy": [
         {
@@ -9586,10 +9692,11 @@
     {
       "id": 106,
       "osm_id": "way/678329045",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "中大幼稚園旁建築 1",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -9631,10 +9738,11 @@
     {
       "id": 107,
       "osm_id": "way/678329046",
-      "name": "Unknown",
-      "height": 12.0,
+      "name": "女三舍旁建築",
+      "osm_named": 0,
+      "height": 7.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "default_small",
       "vertex_count": 4,
       "vertices_xy": [
         {
@@ -9677,9 +9785,10 @@
       "id": 108,
       "osm_id": "way/996613836",
       "name": "教學研究綜合大樓",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 28.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 14,
       "vertices_xy": [
         {
@@ -9802,9 +9911,10 @@
       "id": 109,
       "osm_id": "way/996613837",
       "name": "大禮堂",
-      "height": 12.0,
+      "osm_named": 1,
+      "height": 14.0,
       "is_estimated": 1,
-      "height_source": "default",
+      "height_source": "ncu_report",
       "vertex_count": 36,
       "vertices_xy": [
         {
@@ -10103,6 +10213,7 @@
       "id": 110,
       "osm_id": "way/1041679633",
       "name": "中大國民運動中心",
+      "osm_named": 1,
       "height": 12.0,
       "is_estimated": 1,
       "height_source": "default",
