@@ -27,6 +27,20 @@ def process_geojson(input_path, output_path, default_height=12.0, level_height=3
     cleaned_buildings = []
     b_index = 0
 
+    # 名稱與高度改用和網頁同一套規則（shade/campus.py）：
+    # building_heights.csv 的人工資料 > OSM height > OSM 樓層數 > 依面積估計；
+    # OSM 沒有名字的建築，用「最近的有名建築＋旁建築（流水號）」命名，不再一律寫 Unknown。
+    from shade.campus import (ROOT, HEIGHTS_CSV, map_buildings,
+                              load_height_table, load_name_table)
+    try:
+        with open(output_path, 'r', encoding='utf-8') as f:
+            saved = json.load(f).get("buildings", [])
+    except (OSError, ValueError):
+        saved = []
+    mapped = {(b["osm"], b["part"]): b for b in map_buildings(
+        geo_data.get('features', []), saved,
+        load_height_table(ROOT/HEIGHTS_CSV), load_name_table(ROOT/HEIGHTS_CSV))}
+
     for feature in geo_data.get('features', []):
         props = feature.get('properties', {})
         geom = feature.get('geometry', {})
@@ -65,7 +79,14 @@ def process_geojson(input_path, output_path, default_height=12.0, level_height=3
                     polygons.append(poly[0])
 
         # 3. 整理頂點並轉換座標
-        for ring in polygons:
+        for part, ring in enumerate(polygons):
+            info = mapped.get((props.get('@id') or feature.get('id'), part))
+            if info:
+                height, source_type = info["height"], info["source"]
+                is_estimated = 0 if source_type == "osm_height" else 1
+                name = info["name"] or info.get("label", "")
+            else:
+                name = props.get('name', '')
             # GeoJSON 的頭尾頂點通常會重複(用來閉合多邊形)，移除最後一個重複點方便 C 計算
             if len(ring) > 1 and ring[0] == ring[-1]:
                 ring = ring[:-1]
@@ -83,7 +104,8 @@ def process_geojson(input_path, output_path, default_height=12.0, level_height=3
                 cleaned_buildings.append({
                     "id": b_index,
                     "osm_id": props.get('@id', f"b_{b_index}"),
-                    "name": props.get('name', 'Unknown'),
+                    "name": name or f"未命名建築 {b_index}",
+                    "osm_named": 1 if props.get('name') else 0,   # 0＝名稱是依位置自動產生的
                     "height": round(height, 2),
                     "is_estimated": is_estimated,
                     "height_source": source_type,

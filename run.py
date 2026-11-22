@@ -57,6 +57,13 @@ def main():
                     self.reply(400,"application/json",b'{"error":"invalid simulation input"}')
                     return
                 self.reply(200,"application/json",json.dumps(data,separators=(",",":")).encode())
+            elif url.path=="/api/day":
+                try:
+                    data=model.day(dict(parse_qsl(url.query,keep_blank_values=True)))
+                except (ValueError,KeyError,OverflowError):
+                    self.reply(400,"application/json",b'{"error":"invalid day input"}')
+                    return
+                self.reply(200,"application/json",json.dumps(data,separators=(",",":")).encode())
             else:
                 self.reply(404,"text/plain",b"Not found")
     with ThreadingHTTPServer(("127.0.0.1",port),Handler) as server:
