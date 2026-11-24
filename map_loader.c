@@ -154,7 +154,7 @@ void export_building_names_to_txt(BuildingNode* head, const char* filename) {
     }
 
     fclose(file); // 記得關閉檔案以釋放資源
-    printf("✅ 成功匯出 %d 筆建築名稱對照表至「%s」\n", count, filename);
+    printf(" 成功匯出 %d 筆建築名稱對照表至「%s」\n", count, filename);
 }
 
 //透過名稱尋找建築，找到則回傳該節點指標，找不到則回傳 NULL

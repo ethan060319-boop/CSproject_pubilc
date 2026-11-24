@@ -30,7 +30,7 @@ def process_geojson(input_path, output_path, default_height=12.0, level_height=3
     # 名稱與高度改用和網頁同一套規則（shade/campus.py）：
     # building_heights.csv 的人工資料 > OSM height > OSM 樓層數 > 依面積估計；
     # OSM 沒有名字的建築，用「最近的有名建築＋旁建築（流水號）」命名，不再一律寫 Unknown。
-    from shade.campus import (ROOT, HEIGHTS_CSV, map_buildings,
+    from campus import (ROOT, HEIGHTS_CSV, map_buildings,
                               load_height_table, load_name_table)
     try:
         with open(output_path, 'r', encoding='utf-8') as f:

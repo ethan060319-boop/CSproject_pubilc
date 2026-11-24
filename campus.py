@@ -363,7 +363,7 @@ def load_campus():
     bs = map_buildings(raw["features"], saved, load_height_table(ROOT/HEIGHTS_CSV), load_name_table(ROOT/HEIGHTS_CSV))
     roads, nodes, edges = road_graph(raw["features"])
     nodes, edges, outdoor_stops = outdoor_graph(bs,nodes,edges)
-    land = json.loads((ROOT/"shade"/"land.json").read_text(encoding="utf-8"))
+    land = json.loads((ROOT/"land.json").read_text(encoding="utf-8"))
     bridge_gaps(nodes, edges, bs, land)
     # 仍接不上的小段路（例如被溪流或建築隔開）不放進路網，起終點就不會吸附到孤島上
     nodes, edges, outdoor_stops = keep_component(nodes, edges, largest_component(nodes, edges), outdoor_stops)
